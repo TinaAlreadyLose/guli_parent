@@ -1,0 +1,305 @@
+2020-05-24 14:49:22.022 [main] INFO  cc.akali.edu_service.EduApplication - Starting EduApplication on Dans-Win10 with PID 18844 (E:\Java\IdeaProjects\guli_parent\service\service_edu\target\classes started by dan in E:\Java\IdeaProjects\guli_parent)
+2020-05-24 14:49:22.083 [main] INFO  cc.akali.edu_service.EduApplication - The following profiles are active: dev
+2020-05-24 14:49:25.014 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-24 14:49:25.021 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-05-24 14:49:25.142 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 67ms. Found 0 repository interfaces.
+2020-05-24 14:49:25.851 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-24 14:49:26.816 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2020-05-24 14:49:26.852 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-192.168.50.100-8001"]
+2020-05-24 14:49:26.853 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-24 14:49:26.854 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-05-24 14:49:26.857 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-05-24 14:49:26.857 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-05-24 14:49:26.858 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-05-24 14:49:26.925 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-05-24 14:49:27.674 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-24 14:49:27.675 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5452 ms
+2020-05-24 14:49:28.187 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-05-24 14:49:28.543 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-05-24 14:49:30.051 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-24 14:49:30.253 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-24 14:49:32.025 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-05-24 14:49:32.056 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-05-24 14:49:32.124 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-05-24 14:49:32.507 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-192.168.50.100-8001"]
+2020-05-24 14:49:32.557 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2020-05-24 14:49:32.564 [main] INFO  cc.akali.edu_service.EduApplication - Started EduApplication in 12.788 seconds (JVM running for 19.343)
+2020-05-24 15:37:57.820 [http-nio-192.168.50.100-8001-exec-1] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-05-24 15:37:57.862 [http-nio-192.168.50.100-8001-exec-1] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 41ms. Found 0 repository interfaces.
+2020-05-24 15:37:58.425 [http-nio-192.168.50.100-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-24 15:37:58.425 [http-nio-192.168.50.100-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-24 15:37:58.435 [http-nio-192.168.50.100-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2020-05-24 15:37:58.463 [http-nio-192.168.50.100-8001-exec-1] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-24 15:37:59.287 [http-nio-192.168.50.100-8001-exec-5] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-05-24 15:37:59.319 [http-nio-192.168.50.100-8001-exec-5] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: infoUsingGET_1
+2020-05-24 15:37:59.330 [http-nio-192.168.50.100-8001-exec-5] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingPOST_1
+2020-05-24 15:37:59.338 [http-nio-192.168.50.100-8001-exec-5] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addSubjectUsingPOST_1
+2020-05-24 15:37:59.347 [http-nio-192.168.50.100-8001-exec-5] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getAllSubjectUsingGET_1
+2020-05-24 15:37:59.356 [http-nio-192.168.50.100-8001-exec-5] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addTeacherUsingPOST_1
+2020-05-24 15:37:59.365 [http-nio-192.168.50.100-8001-exec-5] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllTeacherUsingGET_1
+2020-05-24 15:37:59.372 [http-nio-192.168.50.100-8001-exec-5] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getTeacherUsingGET_1
+2020-05-24 15:37:59.380 [http-nio-192.168.50.100-8001-exec-5] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageListTeacherUsingGET_1
+2020-05-24 15:37:59.387 [http-nio-192.168.50.100-8001-exec-5] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageTeacherConditionUsingPOST_1
+2020-05-24 15:37:59.392 [http-nio-192.168.50.100-8001-exec-5] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: removeTeacherUsingDELETE_1
+2020-05-24 15:37:59.397 [http-nio-192.168.50.100-8001-exec-5] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateTeacherUsingPOST_1
+2020-05-24 15:41:25.634 [http-nio-192.168.50.100-8001-exec-4] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-05-24 15:41:25.675 [http-nio-192.168.50.100-8001-exec-4] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 39ms. Found 0 repository interfaces.
+2020-05-24 15:41:26.148 [http-nio-192.168.50.100-8001-exec-2] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-05-24 15:41:26.183 [http-nio-192.168.50.100-8001-exec-2] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addCourseInfoUsingPOST_1
+2020-05-24 15:41:26.198 [http-nio-192.168.50.100-8001-exec-2] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: infoUsingGET_2
+2020-05-24 15:41:26.210 [http-nio-192.168.50.100-8001-exec-2] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingPOST_2
+2020-05-24 15:41:26.223 [http-nio-192.168.50.100-8001-exec-2] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addSubjectUsingPOST_2
+2020-05-24 15:41:26.231 [http-nio-192.168.50.100-8001-exec-2] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getAllSubjectUsingGET_2
+2020-05-24 15:41:26.251 [http-nio-192.168.50.100-8001-exec-2] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addTeacherUsingPOST_2
+2020-05-24 15:41:26.264 [http-nio-192.168.50.100-8001-exec-2] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllTeacherUsingGET_2
+2020-05-24 15:41:26.281 [http-nio-192.168.50.100-8001-exec-2] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getTeacherUsingGET_2
+2020-05-24 15:41:26.296 [http-nio-192.168.50.100-8001-exec-2] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageListTeacherUsingGET_2
+2020-05-24 15:41:26.309 [http-nio-192.168.50.100-8001-exec-2] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageTeacherConditionUsingPOST_2
+2020-05-24 15:41:26.315 [http-nio-192.168.50.100-8001-exec-2] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: removeTeacherUsingDELETE_2
+2020-05-24 15:41:26.327 [http-nio-192.168.50.100-8001-exec-2] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateTeacherUsingPOST_2
+2020-05-24 15:49:14.146 [http-nio-192.168.50.100-8001-exec-4] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-05-24 15:49:14.175 [http-nio-192.168.50.100-8001-exec-4] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 28ms. Found 0 repository interfaces.
+2020-05-24 15:49:19.447 [http-nio-192.168.50.100-8001-exec-10] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-05-24 15:49:19.471 [http-nio-192.168.50.100-8001-exec-10] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addCourseInfoUsingPOST_2
+2020-05-24 15:49:19.482 [http-nio-192.168.50.100-8001-exec-10] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: infoUsingGET_3
+2020-05-24 15:49:19.494 [http-nio-192.168.50.100-8001-exec-10] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingPOST_3
+2020-05-24 15:49:19.505 [http-nio-192.168.50.100-8001-exec-10] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addSubjectUsingPOST_3
+2020-05-24 15:49:19.510 [http-nio-192.168.50.100-8001-exec-10] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getAllSubjectUsingGET_3
+2020-05-24 15:49:19.522 [http-nio-192.168.50.100-8001-exec-10] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addTeacherUsingPOST_3
+2020-05-24 15:49:19.530 [http-nio-192.168.50.100-8001-exec-10] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllTeacherUsingGET_3
+2020-05-24 15:49:19.540 [http-nio-192.168.50.100-8001-exec-10] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getTeacherUsingGET_3
+2020-05-24 15:49:19.549 [http-nio-192.168.50.100-8001-exec-10] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageListTeacherUsingGET_3
+2020-05-24 15:49:19.558 [http-nio-192.168.50.100-8001-exec-10] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageTeacherConditionUsingPOST_3
+2020-05-24 15:49:19.562 [http-nio-192.168.50.100-8001-exec-10] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: removeTeacherUsingDELETE_3
+2020-05-24 15:49:19.569 [http-nio-192.168.50.100-8001-exec-10] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateTeacherUsingPOST_3
+2020-05-24 15:52:47.958 [main] INFO  cc.akali.edu_service.EduApplication - Starting EduApplication on Dans-Win10 with PID 18520 (E:\Java\IdeaProjects\guli_parent\service\service_edu\target\classes started by dan in E:\Java\IdeaProjects\guli_parent)
+2020-05-24 15:52:47.970 [main] INFO  cc.akali.edu_service.EduApplication - The following profiles are active: dev
+2020-05-24 15:52:50.056 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-24 15:52:50.062 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-05-24 15:52:50.156 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 66ms. Found 0 repository interfaces.
+2020-05-24 15:52:50.652 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-24 15:52:51.295 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2020-05-24 15:52:51.312 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-192.168.50.100-8001"]
+2020-05-24 15:52:51.313 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-24 15:52:51.314 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-05-24 15:52:51.315 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-05-24 15:52:51.315 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-05-24 15:52:51.316 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-05-24 15:52:51.321 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-05-24 15:52:51.721 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-24 15:52:51.722 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3635 ms
+2020-05-24 15:52:52.037 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-05-24 15:52:52.221 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-05-24 15:52:53.322 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-24 15:52:53.501 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-24 15:52:54.336 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-05-24 15:52:54.361 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-05-24 15:52:54.418 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-05-24 15:52:54.765 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-192.168.50.100-8001"]
+2020-05-24 15:52:54.805 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2020-05-24 15:52:54.812 [main] INFO  cc.akali.edu_service.EduApplication - Started EduApplication in 7.932 seconds (JVM running for 13.38)
+2020-05-24 15:52:59.670 [http-nio-192.168.50.100-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-24 15:52:59.671 [http-nio-192.168.50.100-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-24 15:52:59.680 [http-nio-192.168.50.100-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2020-05-24 15:56:09.769 [http-nio-192.168.50.100-8001-exec-1] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-05-24 15:56:09.811 [http-nio-192.168.50.100-8001-exec-1] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 41ms. Found 0 repository interfaces.
+2020-05-24 15:56:10.340 [http-nio-192.168.50.100-8001-exec-5] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-05-24 15:56:10.390 [http-nio-192.168.50.100-8001-exec-5] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addCourseInfoUsingPOST_1
+2020-05-24 15:56:10.415 [http-nio-192.168.50.100-8001-exec-5] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: infoUsingGET_1
+2020-05-24 15:56:10.422 [http-nio-192.168.50.100-8001-exec-5] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingPOST_1
+2020-05-24 15:56:10.433 [http-nio-192.168.50.100-8001-exec-5] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addSubjectUsingPOST_1
+2020-05-24 15:56:10.441 [http-nio-192.168.50.100-8001-exec-5] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getAllSubjectUsingGET_1
+2020-05-24 15:56:10.458 [http-nio-192.168.50.100-8001-exec-5] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addTeacherUsingPOST_1
+2020-05-24 15:56:10.469 [http-nio-192.168.50.100-8001-exec-5] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllTeacherUsingGET_1
+2020-05-24 15:56:10.482 [http-nio-192.168.50.100-8001-exec-5] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getTeacherUsingGET_1
+2020-05-24 15:56:10.492 [http-nio-192.168.50.100-8001-exec-5] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageListTeacherUsingGET_1
+2020-05-24 15:56:10.502 [http-nio-192.168.50.100-8001-exec-5] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageTeacherConditionUsingPOST_1
+2020-05-24 15:56:10.509 [http-nio-192.168.50.100-8001-exec-5] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: removeTeacherUsingDELETE_1
+2020-05-24 15:56:10.518 [http-nio-192.168.50.100-8001-exec-5] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateTeacherUsingPOST_1
+2020-05-24 16:08:04.325 [http-nio-192.168.50.100-8001-exec-2] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-05-24 16:08:04.361 [http-nio-192.168.50.100-8001-exec-2] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 34ms. Found 0 repository interfaces.
+2020-05-24 16:08:04.772 [http-nio-192.168.50.100-8001-exec-2] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-24 16:08:05.202 [http-nio-192.168.50.100-8001-exec-5] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-05-24 16:08:05.218 [http-nio-192.168.50.100-8001-exec-5] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addCourseInfoUsingPOST_2
+2020-05-24 16:08:05.225 [http-nio-192.168.50.100-8001-exec-5] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: infoUsingGET_2
+2020-05-24 16:08:05.231 [http-nio-192.168.50.100-8001-exec-5] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingPOST_2
+2020-05-24 16:08:05.238 [http-nio-192.168.50.100-8001-exec-5] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addSubjectUsingPOST_2
+2020-05-24 16:08:05.245 [http-nio-192.168.50.100-8001-exec-5] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getAllSubjectUsingGET_2
+2020-05-24 16:08:05.256 [http-nio-192.168.50.100-8001-exec-5] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addTeacherUsingPOST_2
+2020-05-24 16:08:05.264 [http-nio-192.168.50.100-8001-exec-5] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllTeacherUsingGET_2
+2020-05-24 16:08:05.277 [http-nio-192.168.50.100-8001-exec-5] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getTeacherUsingGET_2
+2020-05-24 16:08:05.295 [http-nio-192.168.50.100-8001-exec-5] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageListTeacherUsingGET_2
+2020-05-24 16:08:05.303 [http-nio-192.168.50.100-8001-exec-5] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageTeacherConditionUsingPOST_2
+2020-05-24 16:08:05.308 [http-nio-192.168.50.100-8001-exec-5] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: removeTeacherUsingDELETE_2
+2020-05-24 16:08:05.313 [http-nio-192.168.50.100-8001-exec-5] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateTeacherUsingPOST_2
+2020-05-24 16:12:18.546 [http-nio-192.168.50.100-8001-exec-2] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-05-24 16:12:18.579 [http-nio-192.168.50.100-8001-exec-2] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 32ms. Found 0 repository interfaces.
+2020-05-24 16:12:19.224 [http-nio-192.168.50.100-8001-exec-5] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-05-24 16:12:19.234 [http-nio-192.168.50.100-8001-exec-5] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addCourseInfoUsingPOST_3
+2020-05-24 16:12:19.240 [http-nio-192.168.50.100-8001-exec-5] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: infoUsingGET_3
+2020-05-24 16:12:19.246 [http-nio-192.168.50.100-8001-exec-5] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingPOST_3
+2020-05-24 16:12:19.252 [http-nio-192.168.50.100-8001-exec-5] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addSubjectUsingPOST_3
+2020-05-24 16:12:19.258 [http-nio-192.168.50.100-8001-exec-5] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getAllSubjectUsingGET_3
+2020-05-24 16:12:19.266 [http-nio-192.168.50.100-8001-exec-5] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addTeacherUsingPOST_3
+2020-05-24 16:12:19.273 [http-nio-192.168.50.100-8001-exec-5] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllTeacherUsingGET_3
+2020-05-24 16:12:19.282 [http-nio-192.168.50.100-8001-exec-5] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getTeacherUsingGET_3
+2020-05-24 16:12:19.290 [http-nio-192.168.50.100-8001-exec-5] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageListTeacherUsingGET_3
+2020-05-24 16:12:19.299 [http-nio-192.168.50.100-8001-exec-5] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageTeacherConditionUsingPOST_3
+2020-05-24 16:12:19.303 [http-nio-192.168.50.100-8001-exec-5] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: removeTeacherUsingDELETE_3
+2020-05-24 16:12:19.308 [http-nio-192.168.50.100-8001-exec-5] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateTeacherUsingPOST_3
+2020-05-24 16:13:21.720 [main] INFO  cc.akali.edu_service.EduApplication - Starting EduApplication on Dans-Win10 with PID 18908 (E:\Java\IdeaProjects\guli_parent\service\service_edu\target\classes started by dan in E:\Java\IdeaProjects\guli_parent)
+2020-05-24 16:13:21.725 [main] INFO  cc.akali.edu_service.EduApplication - The following profiles are active: dev
+2020-05-24 16:13:23.265 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-24 16:13:23.269 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-05-24 16:13:23.351 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 56ms. Found 0 repository interfaces.
+2020-05-24 16:13:23.865 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-24 16:13:24.360 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2020-05-24 16:13:24.376 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-192.168.50.100-8001"]
+2020-05-24 16:13:24.377 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-24 16:13:24.377 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-05-24 16:13:24.379 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-05-24 16:13:24.380 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-05-24 16:13:24.380 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-05-24 16:13:24.384 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-05-24 16:13:24.831 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-24 16:13:24.831 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3005 ms
+2020-05-24 16:13:25.207 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-05-24 16:13:25.393 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-05-24 16:13:26.541 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-24 16:13:26.699 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-24 16:13:27.446 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-05-24 16:13:27.465 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-05-24 16:13:27.511 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-05-24 16:13:27.921 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-192.168.50.100-8001"]
+2020-05-24 16:13:27.960 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2020-05-24 16:13:27.964 [main] INFO  cc.akali.edu_service.EduApplication - Started EduApplication in 7.323 seconds (JVM running for 12.573)
+2020-05-24 16:13:28.046 [http-nio-192.168.50.100-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-24 16:13:28.046 [http-nio-192.168.50.100-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-24 16:13:28.057 [http-nio-192.168.50.100-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2020-05-24 16:15:00.517 [http-nio-192.168.50.100-8001-exec-9] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-05-24 16:15:00.548 [http-nio-192.168.50.100-8001-exec-9] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 30ms. Found 0 repository interfaces.
+2020-05-24 16:15:00.976 [http-nio-192.168.50.100-8001-exec-4] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-05-24 16:15:01.036 [http-nio-192.168.50.100-8001-exec-4] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addCourseInfoUsingPOST_1
+2020-05-24 16:15:01.052 [http-nio-192.168.50.100-8001-exec-4] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: infoUsingGET_1
+2020-05-24 16:15:01.060 [http-nio-192.168.50.100-8001-exec-4] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingPOST_1
+2020-05-24 16:15:01.073 [http-nio-192.168.50.100-8001-exec-4] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addSubjectUsingPOST_1
+2020-05-24 16:15:01.085 [http-nio-192.168.50.100-8001-exec-4] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getAllSubjectUsingGET_1
+2020-05-24 16:15:01.105 [http-nio-192.168.50.100-8001-exec-4] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addTeacherUsingPOST_1
+2020-05-24 16:15:01.119 [http-nio-192.168.50.100-8001-exec-4] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllTeacherUsingGET_1
+2020-05-24 16:15:01.132 [http-nio-192.168.50.100-8001-exec-4] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getTeacherUsingGET_1
+2020-05-24 16:15:01.144 [http-nio-192.168.50.100-8001-exec-4] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageListTeacherUsingGET_1
+2020-05-24 16:15:01.156 [http-nio-192.168.50.100-8001-exec-4] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageTeacherConditionUsingPOST_1
+2020-05-24 16:15:01.165 [http-nio-192.168.50.100-8001-exec-4] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: removeTeacherUsingDELETE_1
+2020-05-24 16:15:01.173 [http-nio-192.168.50.100-8001-exec-4] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateTeacherUsingPOST_1
+2020-05-24 16:16:41.902 [http-nio-192.168.50.100-8001-exec-9] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-05-24 16:16:41.930 [http-nio-192.168.50.100-8001-exec-9] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 26ms. Found 0 repository interfaces.
+2020-05-24 16:16:42.410 [http-nio-192.168.50.100-8001-exec-4] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-05-24 16:16:42.425 [http-nio-192.168.50.100-8001-exec-4] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addCourseInfoUsingPOST_2
+2020-05-24 16:16:42.433 [http-nio-192.168.50.100-8001-exec-4] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: infoUsingGET_2
+2020-05-24 16:16:42.439 [http-nio-192.168.50.100-8001-exec-4] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingPOST_2
+2020-05-24 16:16:42.447 [http-nio-192.168.50.100-8001-exec-4] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addSubjectUsingPOST_2
+2020-05-24 16:16:42.453 [http-nio-192.168.50.100-8001-exec-4] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getAllSubjectUsingGET_2
+2020-05-24 16:16:42.462 [http-nio-192.168.50.100-8001-exec-4] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addTeacherUsingPOST_2
+2020-05-24 16:16:42.471 [http-nio-192.168.50.100-8001-exec-4] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllTeacherUsingGET_2
+2020-05-24 16:16:42.480 [http-nio-192.168.50.100-8001-exec-4] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getTeacherUsingGET_2
+2020-05-24 16:16:42.489 [http-nio-192.168.50.100-8001-exec-4] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageListTeacherUsingGET_2
+2020-05-24 16:16:42.499 [http-nio-192.168.50.100-8001-exec-4] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageTeacherConditionUsingPOST_2
+2020-05-24 16:16:42.506 [http-nio-192.168.50.100-8001-exec-4] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: removeTeacherUsingDELETE_2
+2020-05-24 16:16:42.511 [http-nio-192.168.50.100-8001-exec-4] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateTeacherUsingPOST_2
+2020-05-24 16:17:26.319 [main] INFO  cc.akali.edu_service.EduApplication - Starting EduApplication on Dans-Win10 with PID 17532 (E:\Java\IdeaProjects\guli_parent\service\service_edu\target\classes started by dan in E:\Java\IdeaProjects\guli_parent)
+2020-05-24 16:17:26.324 [main] INFO  cc.akali.edu_service.EduApplication - The following profiles are active: dev
+2020-05-24 16:17:27.801 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-24 16:17:27.804 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-05-24 16:17:27.886 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 55ms. Found 0 repository interfaces.
+2020-05-24 16:17:28.348 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-24 16:17:28.860 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2020-05-24 16:17:28.876 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-192.168.50.100-8001"]
+2020-05-24 16:17:28.877 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-24 16:17:28.878 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-05-24 16:17:28.880 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-05-24 16:17:28.881 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-05-24 16:17:28.881 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-05-24 16:17:28.886 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-05-24 16:17:29.272 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-24 16:17:29.272 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2861 ms
+2020-05-24 16:17:29.552 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-05-24 16:17:29.716 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-05-24 16:17:30.741 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-24 16:17:30.906 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-24 16:17:31.695 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-05-24 16:17:31.745 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-05-24 16:17:31.813 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-05-24 16:17:32.135 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-192.168.50.100-8001"]
+2020-05-24 16:17:32.201 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2020-05-24 16:17:32.206 [main] INFO  cc.akali.edu_service.EduApplication - Started EduApplication in 6.669 seconds (JVM running for 11.933)
+2020-05-24 16:17:35.567 [http-nio-192.168.50.100-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-24 16:17:35.568 [http-nio-192.168.50.100-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-24 16:17:35.578 [http-nio-192.168.50.100-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2020-05-24 16:19:25.842 [http-nio-192.168.50.100-8001-exec-1] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-05-24 16:19:25.879 [http-nio-192.168.50.100-8001-exec-1] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 36ms. Found 0 repository interfaces.
+2020-05-24 16:19:26.343 [http-nio-192.168.50.100-8001-exec-5] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-05-24 16:19:26.381 [http-nio-192.168.50.100-8001-exec-5] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addCourseInfoUsingPOST_1
+2020-05-24 16:19:26.394 [http-nio-192.168.50.100-8001-exec-5] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: infoUsingGET_1
+2020-05-24 16:19:26.405 [http-nio-192.168.50.100-8001-exec-5] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingPOST_1
+2020-05-24 16:19:26.414 [http-nio-192.168.50.100-8001-exec-5] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addSubjectUsingPOST_1
+2020-05-24 16:19:26.424 [http-nio-192.168.50.100-8001-exec-5] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getAllSubjectUsingGET_1
+2020-05-24 16:19:26.439 [http-nio-192.168.50.100-8001-exec-5] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addTeacherUsingPOST_1
+2020-05-24 16:19:26.450 [http-nio-192.168.50.100-8001-exec-5] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllTeacherUsingGET_1
+2020-05-24 16:19:26.461 [http-nio-192.168.50.100-8001-exec-5] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getTeacherUsingGET_1
+2020-05-24 16:19:26.472 [http-nio-192.168.50.100-8001-exec-5] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageListTeacherUsingGET_1
+2020-05-24 16:19:26.482 [http-nio-192.168.50.100-8001-exec-5] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageTeacherConditionUsingPOST_1
+2020-05-24 16:19:26.488 [http-nio-192.168.50.100-8001-exec-5] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: removeTeacherUsingDELETE_1
+2020-05-24 16:19:26.496 [http-nio-192.168.50.100-8001-exec-5] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateTeacherUsingPOST_1
+2020-05-24 16:20:02.626 [main] INFO  cc.akali.edu_service.EduApplication - Starting EduApplication on Dans-Win10 with PID 11020 (E:\Java\IdeaProjects\guli_parent\service\service_edu\target\classes started by dan in E:\Java\IdeaProjects\guli_parent)
+2020-05-24 16:20:02.631 [main] INFO  cc.akali.edu_service.EduApplication - The following profiles are active: dev
+2020-05-24 16:20:04.455 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-24 16:20:04.458 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-05-24 16:20:04.539 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 54ms. Found 0 repository interfaces.
+2020-05-24 16:20:05.012 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-24 16:20:05.511 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2020-05-24 16:20:05.526 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-192.168.50.100-8001"]
+2020-05-24 16:20:05.527 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-24 16:20:05.527 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-05-24 16:20:05.530 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-05-24 16:20:05.530 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-05-24 16:20:05.531 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-05-24 16:20:05.535 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-05-24 16:20:05.907 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-24 16:20:05.907 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3161 ms
+2020-05-24 16:20:06.199 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-05-24 16:20:06.373 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-05-24 16:20:07.412 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-24 16:20:07.574 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-24 16:20:08.308 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-05-24 16:20:08.328 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-05-24 16:20:08.377 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-05-24 16:20:08.664 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-192.168.50.100-8001"]
+2020-05-24 16:20:08.703 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2020-05-24 16:20:08.707 [main] INFO  cc.akali.edu_service.EduApplication - Started EduApplication in 6.947 seconds (JVM running for 12.099)
+2020-05-24 16:20:11.491 [http-nio-192.168.50.100-8001-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-24 16:20:11.492 [http-nio-192.168.50.100-8001-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-24 16:20:11.501 [http-nio-192.168.50.100-8001-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2020-05-24 16:20:49.944 [http-nio-192.168.50.100-8001-exec-6] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-05-24 16:20:49.978 [http-nio-192.168.50.100-8001-exec-6] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 33ms. Found 0 repository interfaces.
+2020-05-24 16:21:35.188 [http-nio-192.168.50.100-8001-exec-7] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-05-24 16:21:35.219 [http-nio-192.168.50.100-8001-exec-7] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 29ms. Found 0 repository interfaces.
+2020-05-24 16:26:53.343 [http-nio-192.168.50.100-8001-exec-9] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-05-24 16:26:53.386 [http-nio-192.168.50.100-8001-exec-9] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 39ms. Found 0 repository interfaces.
+2020-05-24 16:26:54.216 [http-nio-192.168.50.100-8001-exec-1] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-05-24 16:26:54.238 [http-nio-192.168.50.100-8001-exec-1] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addCourseInfoUsingPOST_1
+2020-05-24 16:26:54.251 [http-nio-192.168.50.100-8001-exec-1] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: infoUsingGET_1
+2020-05-24 16:26:54.262 [http-nio-192.168.50.100-8001-exec-1] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingPOST_1
+2020-05-24 16:26:54.281 [http-nio-192.168.50.100-8001-exec-1] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addSubjectUsingPOST_1
+2020-05-24 16:26:54.289 [http-nio-192.168.50.100-8001-exec-1] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getAllSubjectUsingGET_1
+2020-05-24 16:26:54.306 [http-nio-192.168.50.100-8001-exec-1] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addTeacherUsingPOST_1
+2020-05-24 16:26:54.321 [http-nio-192.168.50.100-8001-exec-1] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllTeacherUsingGET_1
+2020-05-24 16:26:54.332 [http-nio-192.168.50.100-8001-exec-1] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getTeacherUsingGET_1
+2020-05-24 16:26:54.340 [http-nio-192.168.50.100-8001-exec-1] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageListTeacherUsingGET_1
+2020-05-24 16:26:54.350 [http-nio-192.168.50.100-8001-exec-1] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageTeacherConditionUsingPOST_1
+2020-05-24 16:26:54.355 [http-nio-192.168.50.100-8001-exec-1] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: removeTeacherUsingDELETE_1
+2020-05-24 16:26:54.362 [http-nio-192.168.50.100-8001-exec-1] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateTeacherUsingPOST_1
+2020-05-24 16:44:40.678 [http-nio-192.168.50.100-8001-exec-9] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-05-24 16:44:40.717 [http-nio-192.168.50.100-8001-exec-9] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 39ms. Found 0 repository interfaces.
+2020-05-24 18:18:53.149 [http-nio-192.168.50.100-8001-exec-5] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-05-24 18:18:53.200 [http-nio-192.168.50.100-8001-exec-5] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 50ms. Found 0 repository interfaces.
+2020-05-24 18:18:53.386 [http-nio-192.168.50.100-8001-exec-5] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]

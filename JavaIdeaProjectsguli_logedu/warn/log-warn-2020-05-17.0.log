@@ -1,0 +1,2 @@
+2020-05-17 16:47:28.897 [http-nio-8001-exec-10] WARN  o.s.c.a.ClassPathScanningCandidateComponentProvider - No MyBatis mapper was found in '[cc.akali.edu_service.mapper]' package. Please check your configuration.
+2020-05-17 17:36:17.261 [http-nio-8001-exec-8] WARN  o.s.c.a.ClassPathScanningCandidateComponentProvider - No MyBatis mapper was found in '[cc.akali.edu_service.mapper]' package. Please check your configuration.
